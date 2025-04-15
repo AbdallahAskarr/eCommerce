@@ -1,0 +1,75 @@
+#space {
+    padding: 75px 0 100px;
+}
+
+#parent {
+
+    background: linear-gradient(to top, white, gray);
+}
+
+.information {
+    padding: 1rem 2rem;
+    padding-top: 50px;
+}
+
+.information .title1 {
+    color: white;
+    padding-left: 6px;
+}
+
+.ol1 {
+    list-style-type: georgian;
+    color: blue;
+}
+
+.information .title2 {
+    color: black;
+}
+
+.information .text1 {
+    color: black;
+    font-weight: 300;
+}
+
+
+.information .btn1 {
+    margin-left: 40px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+    background-color: transparent;
+    border: 2px dotted black;
+}
+
+#image {
+    width: 100%;
+    height: 460px;
+    filter: contrast(1.3);
+
+}
+
+@media screen and (max-width:767px) {
+    .information .title2 {
+        font-size: 30px;
+        padding-left: 5px;
+    }
+}
+/* 
+@media screen and (min-width:768px) and (max-width:991px) {
+    .information .title2 {
+        font-size: 30px;
+        padding-left: 5px;
+    }
+
+    .information {
+        padding-top: 30px;
+    }
+
+    .information .text1 {
+        width: 100%;
+        font-size: 16PX;
+    }
+} */
+
+
+
