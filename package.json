@@ -1,16 +1,17 @@
 {
+  "homepage": "https://AbdallahAskarr.github.io/ecommerce",
   "name": "e-commerce",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://AbdallahAskarr.github.io/eCommerce",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
     "preview": "vite preview"
+
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
